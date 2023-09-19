@@ -1,0 +1,281 @@
+/* header {
+  padding: 10px;
+}
+
+.header-div {
+  color: #fff;
+  width: 120px;
+}
+
+.header-div a {
+  font-size: 1.25rem;
+}
+
+.header-input {
+  display: none;
+}
+
+header .header-div-search {
+  display: block;
+  padding-top: 3px;
+  font-size: 1.1rem;
+}
+
+header .header-div-bars {
+  display: none;
+} */
+
+/* .header-nav ul {
+  justify-content: space-between;
+} */
+
+.container-fluid a {
+  font-size: 1.25rem;
+}
+
+.navbar-collapse ul li a{
+  font-size: .60rem;
+}
+
+.dropdown button {
+  font-size: .60rem;
+}
+
+.dropdown ul li a {
+  font-size: .60rem;
+}
+
+.form-control,
+.btn-outline-success {
+  font-size: .60rem;
+}
+
+
+.main-products-section {
+  /* flex-wrap: wrap; */
+  /* justify-content: center; */
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+.main-products-section .product {
+  min-width: 230px;
+  scroll-snap-align: start;
+  flex: 0 0 35%;
+}
+
+.d-img-2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.75);
+}
+
+.carrusel-2-novedades p:first-child {
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.carrusel-2-novedades p {
+  text-align: center;
+  font-size: .8rem;
+}
+
+.carrusel-2-novedades .container-cards {
+  width: 55%;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  align-self: center;
+}
+
+.carrusel-2-novedades .container-cards .card {
+  scroll-snap-align: start;
+  flex: 0 0 100%;
+}
+
+.main-section-promos {
+  flex-wrap: wrap;
+}
+
+.main-section-aside {
+  width: 100%;
+  flex-direction: row;
+  background: none;
+}
+
+.main-section-promos-section {
+  width: 100%;
+}
+
+.main-section-sucursales {
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  justify-content: flex-start;
+}
+
+.main-section-sucursales .sucursales-box {
+  scroll-snap-align: start;
+}
+
+/* ------------------------------------------- STYLES CONTACTO ------------------------------------------- */
+
+.container-contacto {
+  font-size: small;
+  display: flex;
+  gap: 20px;
+  width: 90%;
+  height: 79.4vh;
+  margin: 20px auto;
+  /* padding: 20px; */
+}
+
+.container-contacto_section_1,
+.container-contacto_section_2 {
+  width: 50%;
+  padding: 20px;
+}
+
+.container-contacto_section_1 h3 {
+  font-size: 1.5rem;
+}
+
+.container-form form label {
+  font-size: 15px;
+}
+
+.container-contacto_ubicacion {
+  width: 100%;
+  height: 20%;
+}
+
+/* ------------------------------------------- STYLES CONTACTO ------------------------------------------- */
+
+/* ------------------------------------------- COMERCIALIZACION ------------------------------------------- */
+
+.section-comercializacion {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.comer-container {
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+  width: 100%;
+  height: 84.5vh;
+  scroll-snap-type: x mandatory;
+}
+
+.comer-container_pasos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 100%;
+  scroll-snap-align: start;
+  overflow-y: auto;
+  /* border: solid red; */
+  margin-bottom: 0;
+}
+
+.comer-container_imagen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+}
+
+.comer-container_imagen img {
+  width: 65%;
+}
+
+.comer-container_instrucciones h5 {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+.comer-container .comer-container_instrucciones p {
+  font-size: 14px;
+  color: gray;
+}
+
+/* ------------------------------------------- COMERCIALIZACION ------------------------------------------- */
+
+/* ------------------------------------------- STYLES TERMINOS Y USOS ------------------------------------------- */
+
+.container-tyu {
+  display: flex;
+  width: 100%;
+  background-color: #efeaea;
+  flex-wrap: wrap;
+}
+
+.container-tyu_nav {
+  display: none;
+}
+
+.container-tyu_items {
+  font-size: 0.8rem;
+  max-width: 100%;
+  padding: 25px 40px;
+  width: 100%;
+  background-color: #fff;
+  margin: 30px 15px;
+}
+
+/* ------------------------------------------- STYLES TERMINOS Y USOS ------------------------------------------- */
+
+/* ------------------------------------------- STYLES QUIENES SOMOS ------------------------------------------- */
+
+.parallax h2 {
+  position: relative;
+  text-align: center;
+  top: 32%;
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: white;
+  text-shadow: 10px 5px 20px rgba(0, 0, 0, .6);
+}
+
+.parallax a {
+  font-size: 1.5rem;
+  box-shadow: 10px 5px 20px rgba(0, 0, 0, .5);
+}
+
+.parallax a i {
+  font-size: 1.3rem;
+  margin-left: 8px;
+}
+
+.parallax a:hover {
+  transform: none;
+}
+
+.container-aboutus-info {
+  flex-direction: column;
+  padding: 65px 0;
+}
+
+.aboutus-info {
+  width: 80%;
+  height: 155px;
+  padding: 15px;
+  border-radius: 20px;
+  overflow: visible;
+}
+  
+.container-info_texto {
+  width: 100%;
+  height: 100%;
+}
+
+.container-aboutus-info p {
+  font-size: .9rem;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+/* ------------------------------------------- QUIENES SOMOS ------------------------------------------- */

@@ -1,0 +1,373 @@
+/* header {
+    padding: 25px;
+}
+
+header .header-div button:last-child {
+    display: block;
+    order: 2;
+}
+
+
+header .header-div {
+    width: 100vw;
+    justify-content: space-between;
+
+}
+
+
+.header-div a {
+    order: 1;
+}
+
+.header-nav {
+    display: none;
+}
+ */
+
+.main-products-section {
+    scroll-snap-type: x mandatory;
+}
+
+.main-products-section .product p {
+    width: 100%;
+}
+
+.main-products-section .product {
+    flex: 0 0 100%;
+    scroll-snap-align: start;
+}
+
+
+
+
+
+.section-carrusel-2 {
+    flex-direction: column;
+}
+
+.carrusel-2 {
+    width: 100%;
+    height: 360px;
+}
+
+.d-item-2 {
+  height: 100%;
+  max-height: 360px;
+}
+
+.d-img-2 {
+  width: 100%;
+  height: 100%;
+  transform: translatey(-20%);
+}
+
+.carrusel-2-novedades {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 8px;
+    padding: 8px;
+    width: 100%;
+}
+
+.carrusel-2-novedades p:first-child {
+    font-size: .92rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.carrusel-2-novedades p {
+    text-align: start;
+    font-size: .8rem;
+}
+
+
+
+.carrusel-2-novedades .container-cards {
+  width: 100%;
+}
+
+.carrusel-2-novedades .container-cards .card {
+  scroll-snap-align: start;
+  flex: 0 0 100%;
+}
+
+
+
+
+.main-section-aside {
+    flex-direction: column;
+}
+
+.main-section-promos-section>div {
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+.main-section-promos-section .box,
+.sucursales-box {
+    justify-content: flex-start;
+    flex: 0 0 100%;
+    scroll-snap-align: start;
+}
+
+
+/* ------------------------------------------- STYLES CONTACTO ------------------------------------------- */
+  
+.container-contacto {
+    font-size: small;
+    display: flex;
+    gap: 20px;
+    width: 95%;
+    height: max-content;
+    margin: 20px auto;
+    flex-wrap: wrap;
+    /* padding: 20px; */
+  }
+  
+  .container-contacto_section_1, .container-contacto_section_2 {
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .container-contacto_section_1 h3 {
+    font-size: 1.3rem;
+  }
+
+  .container-info {
+    width: 100%;
+  }
+  
+  .container-info div {
+    font-size: 11px;
+  }
+
+  .container-form form label {
+    font-size: 12px;
+  }
+
+  .container-contacto_ubicacion {
+    width: 100%;
+    height: 20%;
+  }
+  
+ 
+  /* ------------------------------------------- STYLES CONTACTO ------------------------------------------- */
+
+  /* ------------------------------------------- STYLES COMERCIALIZACION ------------------------------------------- */
+
+  
+  .section-comercializacion {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+
+  .comer-container {
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    width: 100%;
+    height: 86.5vh;
+    scroll-snap-type: x mandatory;
+  }
+
+  .comer-container_pasos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 100%;
+    scroll-snap-align: start;
+    overflow-y: auto;
+    /* overflow-y: scroll; */
+    /* border: solid red; */
+    margin: 0;
+  }
+
+  .comer-container_imagen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 300px;
+    /* height: 40%; */
+    margin-right: 0;
+    margin-bottom: 25px;
+  }
+
+  .comer-container_imagen img {
+    width: 65%;
+    object-fit: contain;
+  }
+
+  .comer-container_instrucciones {
+    overflow-y: auto;
+    height: 40%;
+  }
+
+
+  .comer-container_instrucciones h5 {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+  }
+
+  .comer-container .comer-container_instrucciones p {
+    font-size: 14px;
+    color: gray;
+  }
+
+/*   .section-comercializacion {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80.5vh;
+
+  }
+
+  .comer-container {
+    display: flex;
+    overflow: scroll;
+    width: 100%;
+    height: 84.5vh;
+    scroll-snap-type: x mandatory;
+  }
+
+  .comer-container_pasos {
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+    padding: 22px;
+    flex: 0 0 100%;
+    scroll-snap-align: start;
+    overflow-y: scroll;
+    border-style: none;
+  }
+
+  .comer-container_imagen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+
+  .comer-container_imagen img {
+    width: 75%;
+  }
+
+  .comer-container_imagen span {
+    margin-bottom: 40px;
+    color: var(--primary-color);
+  }
+
+
+  .comer-container_instrucciones h5 {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+  }
+
+  .comer-container_instrucciones p {
+    color: gray;
+  } */
+  /* ------------------------------------------- STYLES COMERCIALIZACION ------------------------------------------- */
+
+  /* ------------------------------------------- STYLES QUIENES SOMOS ------------------------------------------- */
+  .container-aboutus-info {
+    height: max-content;
+    background-attachment: scroll, fixed, scroll;
+  }
+
+  .parallax {
+    background-image: none;
+    background-image: url(../img/about_us/principal-mobile.png);
+    background-size: contain;
+    background-position-y: 42%;
+  }
+  
+  .parallax h2 {
+    position: relative;
+    text-align: center;
+    top: 32%;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: 10px 5px 20px rgba(0, 0, 0, .6);
+  }
+  
+  .parallax a {
+    left: 0;
+    left: calc(50% - 100px);
+    font-size: 1.5rem;
+    box-shadow: 10px 5px 20px rgba(0, 0, 0, .5);
+  }
+  
+  .parallax a i {
+    font-size: 1.2rem;
+    margin-left: 8px;
+  }
+  
+  .parallax a:hover {
+    transform: none;
+  }
+
+  
+  .container-aboutus-info {
+    flex-direction: column;
+    padding: 65px 0;
+  }
+  
+  .aboutus-info {
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 80%;
+    height: max-content;
+    padding: 15px;
+    border-radius: 20px;
+    overflow: visible;
+  }
+
+  .container-info_img {
+    /* border: solid pink; */
+    transform: translateX(0%);
+    width: 100%;
+    height: 30%;
+  }
+  
+  .container-info_img figure {
+    width: 100%;
+    height: 100%;
+    /* border: solid darkgray; */
+  }
+  
+  .container-info_img figure img {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 50%;
+    object-fit: contain;
+    z-index: 8;
+  }
+  
+  
+  .container-info_texto {
+    width: 100%;
+    height: 50%;
+  }
+
+
+  .container-aboutus-info p {
+    width: 100%;
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 26px;
+  }
+
+  /* ------------------------------------------- STYLES QUIENES SOMOS ------------------------------------------- */

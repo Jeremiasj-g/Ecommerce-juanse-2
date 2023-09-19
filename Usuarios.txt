@@ -1,0 +1,5 @@
+Admin: juanse@gmail.com
+Pass: 123
+
+Cliente: manuel@gmail.com
+Pass: 123
